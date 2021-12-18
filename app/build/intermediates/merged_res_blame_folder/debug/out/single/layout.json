@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "F:\\KOTLIN\\BARBERSHOP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_cita.xml",
+        "source": "F:\\KOTLIN\\BARBERSHOP\\app\\src\\main\\res\\layout\\activity_cita.xml"
+    },
+    {
+        "merged": "F:\\KOTLIN\\BARBERSHOP\\app\\build\\intermediates\\incremental\\mergeDebugResources\\stripped.dir\\layout\\activity_main.xml",
+        "source": "F:\\KOTLIN\\BARBERSHOP\\app\\src\\main\\res\\layout\\activity_main.xml"
+    }
+]

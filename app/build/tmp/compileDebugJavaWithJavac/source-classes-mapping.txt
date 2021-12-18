@@ -1,0 +1,6 @@
+com/example/barbershop/databinding/ActivityCitaBinding.java
+ com.example.barbershop.databinding.ActivityCitaBinding
+com/example/barbershop/BuildConfig.java
+ com.example.barbershop.BuildConfig
+com/example/barbershop/databinding/ActivityMainBinding.java
+ com.example.barbershop.databinding.ActivityMainBinding

@@ -1,0 +1,144 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.example.barbershop"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="22"
+8-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="31" />
+9-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml
+10
+11    <!-- Although the *SdkVersion is captured in gradle build files, this is required for non gradle builds -->
+12    <!-- <uses-sdk android:minSdkVersion="14"/> -->
+13    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\61d12bd45145c9141910dc31d3250d2a\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:5-79
+13-->[com.google.firebase:firebase-database:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\61d12bd45145c9141910dc31d3250d2a\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:25:22-76
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\61d12bd45145c9141910dc31d3250d2a\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:5-67
+14-->[com.google.firebase:firebase-database:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\61d12bd45145c9141910dc31d3250d2a\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:26:22-64
+15
+16    <application
+16-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:5:5-24:19
+17        android:allowBackup="true"
+17-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:6:9-35
+18        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+18-->[androidx.core:core:1.7.0] C:\Users\krisw\.gradle\caches\transforms-3\96cf66059cabded80d7658c3876971fa\transformed\core-1.7.0\AndroidManifest.xml:24:18-86
+19        android:debuggable="true"
+20        android:icon="@mipmap/ic_launcher"
+20-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:7:9-43
+21        android:label="@string/app_name"
+21-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:8:9-41
+22        android:roundIcon="@mipmap/ic_launcher_round"
+22-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:9:9-54
+23        android:supportsRtl="true"
+23-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:10:9-35
+24        android:testOnly="true"
+25        android:theme="@style/Theme.BarberShop" >
+25-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:11:9-48
+26        <activity
+26-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:12:9-14:40
+27            android:name="com.example.barbershop.CitaActivity"
+27-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:13:13-41
+28            android:exported="false" />
+28-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:14:13-37
+29        <activity
+29-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:15:9-23:20
+30            android:name="com.example.barbershop.MainActivity"
+30-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:16:13-41
+31            android:exported="true" >
+31-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:17:13-36
+32            <intent-filter>
+32-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:18:13-22:29
+33                <action android:name="android.intent.action.MAIN" />
+33-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:19:17-69
+33-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:19:25-66
+34
+35                <category android:name="android.intent.category.LAUNCHER" />
+35-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:21:17-77
+35-->F:\KOTLIN\BARBERSHOP\app\src\main\AndroidManifest.xml:21:27-74
+36            </intent-filter>
+37        </activity>
+38
+39        <service
+39-->[com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\afc9e34f97e69d0002bf948627c87e0b\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:12:9-18:19
+40            android:name="com.google.firebase.components.ComponentDiscoveryService"
+40-->[com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\afc9e34f97e69d0002bf948627c87e0b\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:13:13-84
+41            android:directBootAware="true"
+41-->[com.google.firebase:firebase-common:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\7f13415792fed5d248fd91ab6187e2fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:35:13-43
+42            android:exported="false" >
+42-->[com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\afc9e34f97e69d0002bf948627c87e0b\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:14:13-37
+43            <meta-data
+43-->[com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\afc9e34f97e69d0002bf948627c87e0b\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:15:13-17:85
+44                android:name="com.google.firebase.components:com.google.firebase.database.ktx.FirebaseDatabaseKtxRegistrar"
+44-->[com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\afc9e34f97e69d0002bf948627c87e0b\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:16:17-124
+45                android:value="com.google.firebase.components.ComponentRegistrar" />
+45-->[com.google.firebase:firebase-database-ktx:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\afc9e34f97e69d0002bf948627c87e0b\transformed\jetified-firebase-database-ktx-20.0.2\AndroidManifest.xml:17:17-82
+46            <meta-data
+46-->[com.google.firebase:firebase-database:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\61d12bd45145c9141910dc31d3250d2a\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:32:13-34:85
+47                android:name="com.google.firebase.components:com.google.firebase.database.DatabaseRegistrar"
+47-->[com.google.firebase:firebase-database:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\61d12bd45145c9141910dc31d3250d2a\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:33:17-109
+48                android:value="com.google.firebase.components.ComponentRegistrar" />
+48-->[com.google.firebase:firebase-database:20.0.2] C:\Users\krisw\.gradle\caches\transforms-3\61d12bd45145c9141910dc31d3250d2a\transformed\jetified-firebase-database-20.0.2\AndroidManifest.xml:34:17-82
+49            <meta-data
+49-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\9ae7d0249e620f5d39e04a3fd4bf09fb\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:15:13-17:85
+50                android:name="com.google.firebase.components:com.google.firebase.ktx.FirebaseCommonKtxRegistrar"
+50-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\9ae7d0249e620f5d39e04a3fd4bf09fb\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:16:17-113
+51                android:value="com.google.firebase.components.ComponentRegistrar" />
+51-->[com.google.firebase:firebase-common-ktx:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\9ae7d0249e620f5d39e04a3fd4bf09fb\transformed\jetified-firebase-common-ktx-20.0.0\AndroidManifest.xml:17:17-82
+52        </service>
+53
+54        <provider
+54-->[com.google.firebase:firebase-common:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\7f13415792fed5d248fd91ab6187e2fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:26:9-31:39
+55            android:name="com.google.firebase.provider.FirebaseInitProvider"
+55-->[com.google.firebase:firebase-common:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\7f13415792fed5d248fd91ab6187e2fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:27:13-77
+56            android:authorities="com.example.barbershop.firebaseinitprovider"
+56-->[com.google.firebase:firebase-common:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\7f13415792fed5d248fd91ab6187e2fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:28:13-72
+57            android:directBootAware="true"
+57-->[com.google.firebase:firebase-common:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\7f13415792fed5d248fd91ab6187e2fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:29:13-43
+58            android:exported="false"
+58-->[com.google.firebase:firebase-common:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\7f13415792fed5d248fd91ab6187e2fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:30:13-37
+59            android:initOrder="100" />
+59-->[com.google.firebase:firebase-common:20.0.0] C:\Users\krisw\.gradle\caches\transforms-3\7f13415792fed5d248fd91ab6187e2fb\transformed\jetified-firebase-common-20.0.0\AndroidManifest.xml:31:13-36
+60
+61        <activity
+61-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krisw\.gradle\caches\transforms-3\0a907168e84c6e6a2ec16ab578c1b7af\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:23:9-26:75
+62            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+62-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krisw\.gradle\caches\transforms-3\0a907168e84c6e6a2ec16ab578c1b7af\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:24:13-79
+63            android:exported="false"
+63-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krisw\.gradle\caches\transforms-3\0a907168e84c6e6a2ec16ab578c1b7af\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:25:13-37
+64            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+64-->[com.google.android.gms:play-services-base:17.1.0] C:\Users\krisw\.gradle\caches\transforms-3\0a907168e84c6e6a2ec16ab578c1b7af\transformed\jetified-play-services-base-17.1.0\AndroidManifest.xml:26:13-72
+65
+66        <meta-data
+66-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\krisw\.gradle\caches\transforms-3\c419b687c8cdfe75b84cfa69f4f00d37\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:23:9-25:69
+67            android:name="com.google.android.gms.version"
+67-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\krisw\.gradle\caches\transforms-3\c419b687c8cdfe75b84cfa69f4f00d37\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:24:13-58
+68            android:value="@integer/google_play_services_version" />
+68-->[com.google.android.gms:play-services-basement:17.0.0] C:\Users\krisw\.gradle\caches\transforms-3\c419b687c8cdfe75b84cfa69f4f00d37\transformed\jetified-play-services-basement-17.0.0\AndroidManifest.xml:25:13-66
+69
+70        <provider
+70-->[androidx.emoji2:emoji2:1.0.0] C:\Users\krisw\.gradle\caches\transforms-3\be7d15c2b64061677358fc7c835c2cba\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:26:9-34:20
+71            android:name="androidx.startup.InitializationProvider"
+71-->[androidx.emoji2:emoji2:1.0.0] C:\Users\krisw\.gradle\caches\transforms-3\be7d15c2b64061677358fc7c835c2cba\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:27:13-67
+72            android:authorities="com.example.barbershop.androidx-startup"
+72-->[androidx.emoji2:emoji2:1.0.0] C:\Users\krisw\.gradle\caches\transforms-3\be7d15c2b64061677358fc7c835c2cba\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:28:13-68
+73            android:exported="false" >
+73-->[androidx.emoji2:emoji2:1.0.0] C:\Users\krisw\.gradle\caches\transforms-3\be7d15c2b64061677358fc7c835c2cba\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:29:13-37
+74            <meta-data
+74-->[androidx.emoji2:emoji2:1.0.0] C:\Users\krisw\.gradle\caches\transforms-3\be7d15c2b64061677358fc7c835c2cba\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:31:13-33:52
+75                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+75-->[androidx.emoji2:emoji2:1.0.0] C:\Users\krisw\.gradle\caches\transforms-3\be7d15c2b64061677358fc7c835c2cba\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:32:17-75
+76                android:value="androidx.startup" />
+76-->[androidx.emoji2:emoji2:1.0.0] C:\Users\krisw\.gradle\caches\transforms-3\be7d15c2b64061677358fc7c835c2cba\transformed\jetified-emoji2-1.0.0\AndroidManifest.xml:33:17-49
+77            <meta-data
+77-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krisw\.gradle\caches\transforms-3\db4af4d9b0f80bf9bef682198e03657a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:31:13-33:52
+78                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+78-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krisw\.gradle\caches\transforms-3\db4af4d9b0f80bf9bef682198e03657a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:32:17-78
+79                android:value="androidx.startup" />
+79-->[androidx.lifecycle:lifecycle-process:2.4.0] C:\Users\krisw\.gradle\caches\transforms-3\db4af4d9b0f80bf9bef682198e03657a\transformed\jetified-lifecycle-process-2.4.0\AndroidManifest.xml:33:17-49
+80        </provider>
+81    </application>
+82
+83</manifest>
